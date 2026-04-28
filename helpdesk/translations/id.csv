@@ -1,0 +1,1110 @@
+ added a,menambahkan a
+ comment, komentar
+% SLA Fulfilled,% SLA Terpenuhi
+% of tickets created that were resolved within SLA,% tiket yang dibuat dan diselesaikan dalam SLA
+- Default Ticket Status<br>,- Status Tiket Default<br>
+- Ticket Reopen Status<br>,- Status Pembukaan Kembali Tiket<br>
+"0 is no feedback, 1 is Like, 2 is Dislike","0 berarti tidak ada masukan, 1 Suka, 2 Tidak Suka"
+<br>Please update HD Settings to use a different status before disabling this status.,<br>Harap perbarui Pengaturan HD untuk menggunakan status yang berbeda sebelum menonaktifkan status ini.
+<br>Please update the SLA(s) to use a different status before disabling this status.,<br>Harap perbarui SLA untuk menggunakan status yang berbeda sebelum menonaktifkan status ini.
+A short description,Deskripsi singkat
+A workday with this name already exists,Hari kerja dengan nama ini sudah ada
+API,API
+Access all team tickets,Akses semua tiket tim
+Access denied,Akses ditolak
+Access only this team's tickets,Akses hanya tiket tim ini
+Account & Security,Akun & Keamanan
+Acknowledgement,Pengakuan
+Action,Tindakan
+Action Required,Diperlukan Tindakan
+Action to perform when clicking the button. The doc will be available as `this`,Tindakan yang harus dilakukan saat mengklik tombol. Dokumen akan tersedia sebagai `ini`
+Active,Aktif
+Activity,Aktivitas
+Add Assignee,Tambahkan Penerima
+Add Category,Tambahkan Kategori
+Add Holiday,Tambahkan Hari Libur
+Add New Article,Tambahkan Artikel Baru
+Add Weekly Holidays,Tambah Hari Libur Mingguan
+Add a comment on a ticket,Tambahkan komentar pada tiket
+Add a condition,Tambahkan ketentuan
+Add a custom condition,Tambahkan kondisi khusus
+Add charts to get started,Tambahkan diagram untuk memulai
+Add condition,Tambahkan ketentuan
+Add condition group,Tambahkan grup ketentuan
+Add holidays here to make sure they’re excluded from SLA calculations.,Tambahkan hari libur di sini untuk memastikan hari libur tersebut dikecualikan dari perhitungan SLA.
+Add members to this team to get started.,Tambahkan anggota ke tim ini untuk memulai.
+Add one to get started.,Tambahkan satu untuk memulai.
+Add recurring holidays such as weekends.,Tambahkan hari libur berulang seperti akhir pekan.
+Add time targets around support milestones like first reply and resolution times.,Tambahkan target waktu seputar pencapaian dukungan seperti waktu balasan dan resolusi pertama.
+Add to Holidays,Tambah ke Hari Libur
+"Add, manage agents and assign roles to them.","Tambahkan, kelola agen, dan tetapkan peran kepada mereka."
+Additional Information,Informasi Tambahan
+Administrator,Administrator
+Agent,Agen
+Agent Configuration,Konfigurasi Agen
+Agent Dashboard,Dasbor Agen
+Agent Manager,Manajer Agen
+Agent Name,Nama Agen
+Agent name,Nama agen
+Agents,Agen
+Agents will no longer be able to view and create saved replies with global scope.,Agen tidak lagi dapat melihat dan membuat balasan tersimpan dengan cakupan global.
+All,Semua
+All SLAs on track,Semua SLA berjalan sesuai rencana
+All Time,Sepanjang Waktu
+All Views,Semua Tampilan
+All articles from this category will move to General category.,Semua artikel dari kategori ini akan dipindahkan ke kategori Umum.
+All comments and emails of the ticket will be moved to the,Semua komentar dan email tiket akan dipindahkan ke
+All your assigned tickets have been responded to,Semua tiket yang Anda tetapkan telah ditanggapi
+Allow anyone to create tickets,Izinkan siapa pun membuat tiket
+Allow users to react to comments with emojis,Izinkan pengguna bereaksi terhadap komentar dengan emoji
+Allow users to react to comments with emojis.,Izinkan pengguna bereaksi terhadap komentar dengan emoji.
+Amber,Amber
+Anyone will be able to create tickets without any permission. e.g. from webform.,Siapa pun dapat membuat tiket tanpa izin apa pun. misalnya dari formulir web.
+Appears in the left sidebar. Recommended size is minimum 32x32 px in PNG or SVG.,Muncul di sidebar kiri. Ukuran yang disarankan adalah minimal 32x32 piksel dalam format PNG atau SVG.
+Appears next to the title in your browser tab. Recommended size is minimum 32x32 px in PNG or ICO,Muncul di sebelah judul di tab browser Anda. Ukuran yang disarankan adalah minimal 32x32 px dalam format PNG atau ICO
+Appears next to the title in your browser tab. Recommended size is minimum 32x32 px in PNG or ICO.,Muncul di sebelah judul di tab browser Anda. Ukuran yang disarankan adalah minimal 32x32 px dalam format PNG atau ICO.
+Apply SLA for Resolution Time,Terapkan SLA untuk Waktu Resolusi
+Apply To,Terapkan Ke
+Apply on new page,Terapkan di halaman baru
+Apply outside working hours,Berlaku di luar jam kerja
+Archived,Diarsipkan
+Are you sure you want to change tabs? Unsaved changes will be lost.,Apakah Anda yakin ingin mengganti tab? Perubahan yang belum disimpan akan hilang.
+Are you sure you want to close this ticket?,Apakah Anda yakin ingin menutup tiket ini?
+Are you sure you want to delete these articles?,Apakah Anda yakin ingin menghapus artikel ini?
+Are you sure you want to delete this team? This action cannot be reversed!,Apakah Anda yakin ingin menghapus tim ini? Tindakan ini tidak dapat dibatalkan!
+Are you sure you want to delete this ticket? This is an irreversible action and cannot be undone.,Apakah Anda yakin ingin menghapus tiket ini? Ini adalah tindakan yang tidak dapat diubah dan tidak dapat dibatalkan.
+Are you sure you want to delete this view?,Apakah Anda yakin ingin menghapus tampilan ini?
+Are you sure you want to discard changes?,Apakah Anda yakin ingin membuang perubahan?
+Are you sure you want to discard this article?,Apakah Anda yakin ingin membuang artikel ini?
+Are you sure you want to go back? Unsaved changes will be lost.,Apakah Anda yakin ingin kembali? Perubahan yang belum disimpan akan hilang.
+Are you sure you want to leave? Unsaved changes will be lost.,Apakah Anda yakin ingin pergi? Perubahan yang belum disimpan akan hilang.
+Are you sure you want to remove the logo?,Apakah Anda yakin ingin menghapus logo tersebut?
+Are you sure you want to reset the content? Current content will be overridden.,Apakah Anda yakin ingin menyetel ulang konten? Konten saat ini akan diganti.
+Article,Artikel
+Article body cannot be set as empty.,Isi artikel tidak dapat dikosongkan.
+Article created successfully.,Artikel berhasil dibuat.
+Article deleted successfully.,Artikel berhasil dihapus.
+Article link copied to clipboard,Tautan artikel disalin ke papan klip
+Article updated successfully.,Artikel berhasil diperbarui.
+Articles deleted successfully.,Artikel berhasil dihapus.
+Articles moved successfully.,Artikel berhasil dipindahkan.
+Assign,Menetapkan
+Assign a ticket to an agent,Tetapkan tiket ke agen
+Assign ticket,Tetapkan tiket
+Assign to,Tugaskan ke
+Assign to me,Tetapkan ke saya
+Assigned To,Ditugaskan Kepada
+Assignee Rules,Aturan Penerima Tugas
+Assignee's updated successfully.,Penerima tugas berhasil diperbarui.
+Assignees,Penerima tugas
+Assignment,Penugasan
+Assignment Condition,Kondisi Penugasan
+Assignment Conditions,Kondisi Penugasan
+Assignment Rule,Aturan Penugasan
+Assignment Rules,Aturan Penugasan
+Assignment Rules automatically route tickets to the right team members based on predefined conditions.,Aturan Penugasan secara otomatis mengarahkan tiket ke anggota tim yang tepat berdasarkan kondisi yang telah ditentukan sebelumnya.
+Assignment Schedule,Jadwal Penugasan
+Assignment rule,Aturan penugasan
+Assignment rule created successfully.,Aturan penugasan berhasil dibuat.
+Assignment rule deleted successfully.,Aturan penetapan berhasil dihapus.
+Assignment rule duplicated successfully.,Aturan penetapan berhasil diduplikasi.
+Assignment rule updated successfully.,Aturan penetapan berhasil diperbarui.
+At least one email is required,Setidaknya diperlukan satu email
+At least one email required,Setidaknya diperlukan satu email
+At least one team is required,Setidaknya diperlukan satu tim
+"At-least one of priority, team and ticket type is required","Setidaknya salah satu prioritas, tim, dan jenis tiket diperlukan"
+Attachment,Lampiran
+Author,Pengarang
+Auto update status,Status pembaruan otomatis
+Auto-close after (Days),Tutup otomatis setelahnya (Hari)
+Auto-close tickets that remain in a status for the specified number of days.,Tiket tutup otomatis yang tetap berstatus selama jumlah hari yang ditentukan.
+Auto-generated from the portal view — do not edit directly unless you know what you're doing! ,Dibuat secara otomatis dari tampilan portal — jangan mengedit secara langsung kecuali Anda tahu apa yang Anda lakukan!
+Automatically Close Tickets when,Tutup Tiket Secara Otomatis ketika
+Automatically close stale tickets,Menutup tiket basi secara otomatis
+Automation,Otomatisasi
+Average First Response,Rata-rata Respon Pertama
+Average First Response Time,Rata-rata Waktu Respons Pertama
+Average Resolution,Resolusi Rata-Rata
+Average Resolution Time,Waktu Resolusi Rata-rata
+Average Response Time,Waktu Respons Rata-rata
+Average Time Metrics,Metrik Waktu Rata-rata
+Average response and resolution metrics not yet generated,Metrik respons dan resolusi rata-rata belum dihasilkan
+Avg. Feedback Rating,Rata-rata Peringkat Umpan Balik
+Avg. First Response,Rata-rata Respon Pertama
+Avg. Resolution,Rata-rata Resolusi
+Avg. feedback rating for the tickets resolved,Rata-rata peringkat umpan balik untuk tiket diselesaikan
+Avg. first response time,Rata-rata waktu respons pertama
+Avg. resolution time,Rata-rata waktu penyelesaian
+Avg. time taken to first respond to a ticket,Rata-rata waktu yang dibutuhkan untuk pertama kali merespons tiket
+Avg. time taken to resolve a ticket,Rata-rata waktu yang dibutuhkan untuk menyelesaikan tiket
+Back,Kembali
+Back to Tickets,Kembali ke Tiket
+Base Support Rotation,Rotasi Dukungan Basis
+Base URL,URL dasar
+Based On,Berdasarkan
+"Based on your HR Policy, select your leave allocation period's end date","Berdasarkan Kebijakan SDM Anda, pilih tanggal akhir periode alokasi cuti Anda"
+"Based on your HR Policy, select your leave allocation period's start date","Berdasarkan Kebijakan SDM Anda, pilih tanggal mulai periode alokasi cuti Anda"
+Black,Hitam
+Blue,Biru
+Brand name,Nama brand
+Branding,Branding
+Business Holidays,Hari Libur Bisnis
+Busy,Sibuk
+Button,Tombol
+CSV,CSV
+Call Details,Detail Panggilan
+Call Logs,Log Panggilan
+Call Received By,Panggilan Diterima Oleh
+Call duration in seconds,Durasi panggilan dalam detik
+Caller,Penelepon
+Calls,Panggilan
+"Can invite new agents, manage tickets, create custom views and manage public views.","Dapat mengundang agen baru, mengelola tiket, membuat tampilan khusus, dan mengelola tampilan publik."
+"Can work on tickets, create custom views and manage private views.","Dapat mengerjakan tiket, membuat tampilan khusus, dan mengelola tampilan pribadi."
+Cancel,Batalkan
+Cancel Invitation,Batalkan Undangan
+Canceled,Dibatalkan
+Cannot delete the default SLA. At least one SLA must be marked as default.,Tidak dapat menghapus SLA default. Setidaknya satu SLA harus ditandai sebagai default.
+Cannot disable this status as it is linked in HD Settings:<br><br>,Tidak dapat menonaktifkan status ini karena tertaut dalam Setelan HD:<br><br>
+Cannot disable this status as it is linked in the following SLAs:<br><br>,Tidak dapat menonaktifkan status ini karena tertaut dalam SLA berikut:<br><br>
+Cannot enable rule without adding users in it,Tidak dapat mengaktifkan aturan tanpa menambahkan pengguna di dalamnya
+Cannot merge General category,Tidak dapat menggabungkan kategori Umum
+Category,Kategori
+Category created successfully.,Kategori berhasil dibuat.
+Category deleted successfully.,Kategori berhasil dihapus.
+Category merged successfully.,Kategori berhasil digabungkan.
+Category must have atleast one article,Kategori harus memiliki setidaknya satu artikel
+Category updated successfully.,Kategori berhasil diperbarui.
+Change,Perubahan
+Change Password,Ubah Kata Sandi
+Change image,Ubah gambar
+Change language of the application.,Ubah bahasa aplikasi.
+Change photo,Ganti foto
+Change priority,Ubah prioritas
+Change status,Ubah status
+Change team,Ganti tim
+Change ticket type,Ubah jenis tiket
+Change timezone of the application.,Ubah zona waktu aplikasi.
+Change your account password for security.,Ubah kata sandi akun Anda untuk keamanan.
+Change your search terms or filters,Ubah istilah atau filter pencarian Anda
+Change your search terms to find teams.,Ubah istilah pencarian Anda untuk menemukan tim.
+Channels,Saluran
+Child field,Bidang anak
+Choose how long this SLA policy will be active.,Pilih berapa lama kebijakan SLA ini akan aktif.
+Choose how tickets are distributed among selected assignees.,Pilih bagaimana tiket didistribusikan di antara penerima tugas yang dipilih.
+Choose the days of the week when this rule should be active.,Pilih hari dalam seminggu kapan aturan ini harus aktif.
+Choose the duration of this holiday list.,Pilih durasi daftar liburan ini.
+Choose the email service provider you want to configure.,Pilih penyedia layanan email yang ingin Anda konfigurasikan.
+Choose which tickets are affected by this assignment rule.,Pilih tiket mana yang terpengaruh oleh aturan penugasan ini.
+Choose which tickets are affected by this policy.,Pilih tiket mana yang terpengaruh oleh kebijakan ini.
+Choose which tickets are affected by this un-assignment rule.,Pilih tiket mana yang terpengaruh oleh aturan pembatalan penugasan ini.
+Choose who can view and use this response.,Pilih siapa yang dapat melihat dan menggunakan respons ini.
+Choose who receives the tickets.,Pilih siapa yang menerima tiket.
+Clear Table,Hapus Tabel
+Clear all filters,Hapus semua filter
+Click on Add to Holidays. This will populate the holidays table with all the dates that fall on the selected weekly off. Repeat the process for populating the dates for all your weekly holidays,Klik Tambahkan ke Hari Libur. Ini akan mengisi tabel hari libur dengan semua tanggal yang jatuh pada libur mingguan yang dipilih. Ulangi proses untuk mengisi tanggal untuk semua hari libur mingguan Anda
+Close,Tutup
+Close Ticket,Tutup Tiket
+Closed,Tertutup
+Closed or rated tickets cannot be updated by non-agents,Tiket yang ditutup atau diberi peringkat tidak dapat diperbarui oleh non-agen
+Collapse,Jatuh
+Color,Warna
+Columns,Kolom
+Comma separated emails to invite.,Email yang dipisahkan koma untuk diundang.
+Comment,Komentar
+Comment cannot be empty.,Komentar tidak boleh kosong.
+Comment deleted sucessfully.,Komentar berhasil dihapus.
+Comment not found,Komentar tidak ditemukan
+Comment updated successfully.,Komentar berhasil diperbarui.
+Commented By,Dikomentari oleh
+Comments,Komentar
+Communication,Komunikasi
+Communication ID is required,ID Komunikasi diperlukan
+Completed,Selesai
+Condition,Kondisi
+Configure your Exotel settings for Helpdesk.,Konfigurasikan pengaturan Exotel Anda untuk Helpdesk.
+Configure your Exotel telephony integration settings here,Konfigurasikan pengaturan integrasi telepon Exotel Anda di sini
+Configure your Twilio settings for Helpdesk.,Konfigurasikan pengaturan Twilio Anda untuk Helpdesk.
+Configure your Twilio telephony integration settings here,Konfigurasikan pengaturan integrasi telepon Twilio Anda di sini
+Configure your telephony settings.,Konfigurasikan pengaturan telepon Anda.
+Confirm,Menegaskan
+Confirm Changes,Konfirmasikan Perubahan
+Confirm Password,Konfirmasi Kata Sandi
+Confirm overwrite,Konfirmasi penimpaan
+Connect your support email,Hubungkan email dukungan Anda
+Contact,Kontak
+Contact HTML,Hubungi HTML
+Contact created successfully.,Kontak berhasil dibuat.
+Contact invited successfully.,Kontak berhasil diundang.
+Contact updated successfully.,Kontak berhasil diperbarui.
+Contact with email already exists,Kontak dengan email sudah ada
+Contacts,Kontak
+Content,Isi
+Content Type,Tipe Konten
+Copy ticket URL,Salin URL tiket
+Copy ticket id,Salin id tiket
+Create,Buat
+Create & invite a contact,Buat & undang kontak
+Create New Contact,Buat Kontak Baru
+Create View,Buat Tampilan
+Create a ticket,Buat tiket
+Create an article,Buat artikel
+Create and manage teams and assign agents to specific teams.,Membuat dan mengelola tim dan menugaskan agen ke tim tertentu.
+Create field dependencies to dynamically update options based on user selections. Learn more about field dependencies,Buat dependensi bidang untuk memperbarui opsi secara dinamis berdasarkan pilihan pengguna. Pelajari selengkapnya tentang dependensi bidang
+Create new business holiday,Buat liburan bisnis baru
+Created by,Dibuat oleh
+Criterion,Kriteria
+Custom Outside Working Hours Message,Pesan Khusus Di Luar Jam Kerja
+Custom Range,Rentang Kustom
+Customer,Pelanggan
+Customer Name,Nama Pelanggan
+Customer created successfully.,Pelanggan berhasil dibuat.
+Customer portal,Portal pelanggan
+Customer updated successfully.,Pelanggan berhasil diperbarui.
+Customize your email notification preferences to stay informed about important updates and activities.,Sesuaikan preferensi pemberitahuan email Anda untuk tetap mendapat informasi tentang pembaruan dan aktivitas penting.
+Cyan,Sian
+Danger,Bahaya
+Dashboard,Dasbor
+Dashboard saved,Dasbor disimpan
+Date,Tanggal
+Day count for auto closing tickets cannot be negative or zero,Hitungan hari untuk tiket penutupan otomatis tidak boleh negatif atau nol
+Days,hari
+Default Inbox,Standar Inbox
+Default Priority,Prioritas Bawaan
+Default SLA,SLA bawaan
+Default Sending,Default Mengirim
+Default Sending and Inbox,Default Mengirim dan Inbox
+Default Ticket Status,Status Tiket Default
+Default Views,Tampilan Bawaan
+Default actions,Tindakan bawaan
+Default calling medium for logged in user,Media panggilan default untuk pengguna yang sedang masuk
+Default medium,Media default
+Default priority,Prioritas bawaan
+Default template can not be deleted,Templat bawaan tidak dapat dihapus
+Default ticket status,Status tiket default
+Default ticket type,Jenis tiket default
+Define who receives the tickets and how they’re distributed among agents.,Tentukan siapa yang menerima tiket dan bagaimana tiket tersebut didistribusikan di antara agen.
+Delete,Hapus
+Delete View,Hapus Tampilan
+Delete articles,Hapus artikel
+Delete category?,Hapus kategori?
+Description,Deskripsi
+Description Template,Templat Deskripsi
+Description Weight,Deskripsi Berat
+Detailed explanation,Penjelasan rinci
+Details,Penjelasan
+Disable Bypass Restrictions,Nonaktifkan Pembatasan Bypass
+Disable global saved replies,Nonaktifkan balasan tersimpan global
+Disable saved replies with scope 'Global',Nonaktifkan balasan tersimpan dengan cakupan 'Global'
+Disable signup,Nonaktifkan pendaftaran
+Disabled,Dinonaktifkan
+"Disables all email notifications for the ticket - including creation, updates, and alerts.","Menonaktifkan semua notifikasi email untuk tiket - termasuk pembuatan, pembaruan, dan peringatan."
+Discard,Membuang
+Discard Article,Buang Artikel
+Discard changes?,Hapus perubahan?
+Display a customizable banner message when customers raise tickets outside your working hours.,Tampilkan pesan spanduk yang dapat disesuaikan ketika pelanggan menaikkan tiket di luar jam kerja Anda.
+Do not apply filters and restrictions to agents of this team,Jangan terapkan filter dan batasan pada agen tim ini
+Do not restrict tickets without a Team,Jangan membatasi tiket tanpa Tim
+Do not restrict tickets without a team,Jangan membatasi tiket tanpa tim
+DocType,Tipe Dokumen
+Docs,dokumen
+Document Type,Jenis Dokumen
+Domain,Domain
+Download,Unduh
+Draft,Draf
+Duplicate,Duplikat
+Duplicate Assignment Rule,Aturan Penugasan Duplikat
+Duplicate Holiday List,Daftar Liburan Duplikat
+Duplicate SLA Policy,Kebijakan SLA Duplikat
+Duplicate Saved reply,Duplikat Balasan tersimpan
+Duration,Lamanya
+Duration is required,Durasi diperlukan
+"Easily invite new agents, managers, or admins.","Undang agen, manajer, atau admin baru dengan mudah."
+Edit,Sunting
+Edit Call Log,Edit Log Panggilan
+Edit Domain,Sunting Domain
+Edit Email,Edit Email
+Edit Title,Sunting Judul
+Edit your email account,Edit akun email Anda
+Email,Surel
+Email Account,Akun Email
+Email Accounts,Akun Email
+Email Content,Konten Email
+Email Id,nomor email
+Email Notifications,Pemberitahuan Email
+Email account created,Akun email dibuat
+Email account name,Nama akun email
+Email account updated successfully,Akun email berhasil diperbarui
+Email should not be empty,Email wajib diisi
+Emails,email
+Emails pulled successfully,Email berhasil ditarik
+Emoji,emoji
+Enable Bypass Restrictions,Aktifkan Batasan Bypass
+Enable comment reactions,Aktifkan reaksi komentar
+Enable feedback for Customer Portal,Aktifkan umpan balik untuk Portal Pelanggan
+Enabled,Diaktifkan
+End Date,Tanggal Berakhir
+End Time,Waktu Selesai
+Enter a name for this HD Service Holiday List.,Masukkan nama untuk Daftar Liburan Layanan HD ini.
+Enter a valid email,Masukkan email yang valid
+Enter a valid phone number,Masukkan nomor telepon yang valid
+Enter brand name,Masukkan nama merek
+Enter the new name for the team,Masukkan nama baru untuk tim
+Error updating customer,Terjadi kesalahan saat memperbarui pelanggan
+Error while connecting to email account {0},Kesalahan saat menyambung ke akun email {0}
+Escalation rule already exists for this criteria,Aturan eskalasi sudah ada untuk kriteria ini
+Excel,Unggul
+Exotel,Exotel
+Expand,Memperluas
+Explore customer portal,Jelajahi portal pelanggan
+Export,Ekspor
+Export All {0} Record(s),Ekspor Semua {0} Catatan
+Export Type,Jenis ekspor
+External link,Tautan eksternal
+Failed,Gagal
+Failed to create category,Gagal membuat kategori
+"Failed to create email account, Invalid credentials","Gagal membuat akun email, kredensial tidak valid"
+Failed to delete ticket.,Gagal menghapus tiket.
+Failed to load telephony agent,Gagal memuat agen telepon
+Failed to pull emails,Gagal menarik email
+Failed to save Exotel settings,Gagal menyimpan pengaturan Exotel
+Failed to save Twilio settings,Gagal menyimpan pengaturan Twilio
+Failed to update Assignee's.,Gagal memperbarui Penerima Tugas.
+Failed to update category.,Gagal memperbarui kategori.
+"Failed to update email account, Invalid credentials","Gagal memperbarui akun email, kredensial tidak valid"
+Favicon,Favicon
+Feedback,Masukan
+Feedback ,Umpan Balik 
+Feedback (Extra),Masukan (Ekstra)
+Feedback Already Exists,Umpan Balik Sudah Ada
+Feedback Rating,Peringkat Umpan Balik
+Feedback Trend,Tren Umpan Balik
+Feedback submitted successfully.,Masukan berhasil dikirimkan.
+Field (fieldname),Bidang (nama bidang)
+Field Dependencies,Ketergantungan Bidang
+Field Dependency created successfully,Ketergantungan Bidang berhasil dibuat
+Field Dependency updated successfully,Ketergantungan Bidang berhasil diperbarui
+Field dependency deleted successfully.,Ketergantungan bidang berhasil dihapus.
+Field dependency updated successfully.,Ketergantungan bidang berhasil diperbarui.
+Fields,bidang
+Filters,Filter
+Find out all of the variables that can be used in the content,Cari tahu semua variabel yang dapat digunakan dalam konten
+First Name,Nama Depan
+First Responded On,Pertama Ditanggapi Pada
+First Response Due,Batas Waktu Tanggapan Pertama
+First Response Time,Waktu Respon Pertama
+First Response Time for Tickets,Waktu Respons Pertama untuk Tiket
+First name,Nama depan
+First name should not be empty,Nama depan wajib diisi
+Form,Membentuk
+Friday,Jumat
+From,Dari
+From Date,Dari Tanggal
+From date,Sejak tanggal
+From is required,Dari diperlukan
+Fulfilled,Terpenuhi
+General,Umum
+General Settings,Pengaturan Umum
+General category can't be deleted,Kategori umum tidak dapat dihapus
+General category name can't be changed,Nama kategori umum tidak dapat diubah
+General is a reserved category name. Please use a different name to proceed.,Umum adalah nama kategori yang dicadangkan. Harap gunakan nama lain untuk melanjutkan.
+Global,Global
+Gray,Abu-abu
+Great! All your tickets are within SLA,Besar! Semua tiket Anda berada dalam SLA
+Green,Hijau
+Group By,Dikelompokkan oleh
+Group By Field,Grup Berdasarkan Bidang
+Guest,Tamu
+HD Action,Aksi HD
+HD Agent,Agen HD
+HD Article,Artikel HD
+HD Article Category,Kategori Artikel HD
+HD Article Feedback,Umpan Balik Artikel HD
+HD Comment Reaction,Reaksi Komentar HD
+HD Customer,Pelanggan HD
+HD Desk Account Request,Permintaan Akun Meja HD
+HD Escalation Rule,Aturan Eskalasi HD
+HD Field Layout,Tata Letak Bidang HD
+HD Form Script,Skrip Bentuk HD
+HD Holiday,Liburan HD
+HD Notification,Pemberitahuan HD
+HD Organization,Organisasi HD
+HD Organization Contact Item,Item Kontak Organisasi HD
+HD Portal Signup Request,Permintaan Pendaftaran Portal HD
+HD Saved Reply,Balasan Tersimpan HD
+HD Saved Reply Team,Tim Balasan Tersimpan HD
+HD Service Day,Hari Layanan HD
+HD Service Holiday List,Daftar Liburan Layanan HD
+HD Service Level Agreement,Perjanjian Tingkat Layanan HD
+HD Service Level Priority,Prioritas Tingkat Layanan HD
+HD Stopword,Kata Penghenti HD
+HD Support Search Source,Sumber Pencarian Dukungan HD
+HD Synonym,Sinonim HD
+HD Synonyms,Sinonim HD
+HD Team Member,Anggota Tim HD
+HD Ticket,Tiket HD
+HD Ticket Activity,Aktivitas Tiket HD
+HD Ticket Comment,Komentar Tiket HD
+HD Ticket Feedback Option,Opsi Umpan Balik Tiket HD
+HD Ticket Priority,Prioritas Tiket HD
+HD Ticket Status,Status Tiket HD
+HD Ticket Template,Templat Tiket HD
+HD Ticket Template Field,Bidang Templat Tiket HD
+HD Ticket Type,Jenis Tiket HD
+HD View,Tampilan HD
+Headings Weight,Berat Judul
+Help,Bantuan
+HelpDesk,Meja Bantuan
+Helpdesk,meja bantuan
+Helpdesk Contact,Kontak Meja Bantuan
+Helpdesk Reports,Laporan Meja Bantuan
+"Here, your weekly offs are pre-populated based on the previous selections. You can add more rows to also add public and national holidays individually.","Di sini, libur mingguan Anda sudah diisi sebelumnya berdasarkan pilihan sebelumnya. Anda dapat menambahkan lebih banyak baris untuk menambahkan hari libur umum dan nasional satu per satu."
+Hey,Hai
+Hide condition,Sembunyikan kondisi
+Hide view from sidebar,Sembunyikan tampilan dari sidebar
+Hold,Ditahan
+Holiday List,Daftar Hari Libur
+Holiday List Name,Nama Daftar Liburan
+Holiday list created successfully.,Daftar hari libur berhasil dibuat.
+Holiday list deleted successfully.,Daftar hari libur berhasil dihapus.
+Holiday list duplicated successfully.,Daftar hari libur berhasil diduplikasi.
+Holiday list updated successfully.,Daftar hari libur berhasil diperbarui.
+Holidays,Hari libur
+Home,Rumah
+"I understand, add conditions","Saya mengerti, tambahkan ketentuan"
+ID,PENGENAL
+IP Address,Alamat IP
+Icon,Ikon
+"If enabled, a ticket creation acknowledgement email will be sent to the user right after creating an email ticket","Jika diaktifkan, email konfirmasi pembuatan tiket akan dikirim ke pengguna segera setelah pembuatan tiket email"
+"If enabled, an email is sent to all of the recipients associated with an agent's reply","Jika diaktifkan, email akan dikirim ke semua penerima yang terkait dengan balasan agen"
+"If enabled, an email will be sent to all of the assigned agents after a reply from one of the contacts","Jika diaktifkan, email akan dikirim ke semua agen yang ditugaskan setelah balasan dari salah satu kontak"
+"If enabled, anyone will be able to create tickets (without any permission). ","Jika diaktifkan, siapa pun akan dapat membuat tiket (tanpa izin apa pun)."
+"If your issue isn't resolved, raise a support ticket","Jika masalah Anda belum terselesaikan, ajukan tiket dukungan"
+Ignore Restrictions,Abaikan Batasan
+Image,Gambar
+Image removed successfully.,Gambar berhasil dihapus.
+"Image to be used in various places, including Login and Signup pages. An image with transparent background and 160 x 32 is preferred","Gambar untuk digunakan di berbagai tempat, termasuk halaman Login dan Daftar. Gambar dengan latar belakang transparan dan ukuran 160 x 32 lebih disukai"
+Image updated successfully.,Gambar berhasil diperbarui.
+In Progress,Sedang berlangsung
+Inactive,Tidak aktif
+Inbound Call,Panggilan Masuk
+Inbox,Kotak masuk
+Incoming,Masuk
+Initiated,Diprakarsai
+Instantly send e-mail,Kirim email secara instan
+Insufficient Permission for {0},Izin tidak cukup untuk {0}
+Integer value,Nilai bilangan bulat
+Invalid email,Email tidak valid
+"Invalid fields, check if all are filled in and values are correct.","Bidang tidak valid, periksa apakah semua sudah terisi dan nilainya benar."
+"Invalid file type, only PNG and JPG images are allowed","Jenis file tidak valid, hanya gambar PNG dan JPG yang diperbolehkan"
+Invalid notification,Pemberitahuan tidak valid
+Invalid phone number,Nomor telepon tidak valid
+Invite Agents,Undang Agen
+Invite agent,Undang agen
+Invite agents,Undang agen
+Invite as user,Undang sebagai pengguna
+Invite by email,Undang via email
+Is Active,Aktif
+Is Customer Portal,Apakah Portal Pelanggan
+Is Default,Apakah default
+Is Standard,Apakah Standar
+Is applied to system,Diterapkan pada sistem
+Is name setup skipped,Apakah pengaturan nama dilewati
+Is pinned,Disematkan
+Is setup complete,Apakah pengaturan sudah selesai
+Item(s) deleted successfully.,Item berhasil dihapus.
+John Doe,John Doe
+Jump to,Lompat ke
+KB,KB
+Key,Kunci
+Keyboard Shortcuts,Pintasan keyboard
+Knowledge Base,Dasar pengetahuan
+Label,Label
+Label (customer view),Label (tampilan pelanggan)
+Landing Page,Halaman Arahan
+Language,Bahasa
+Language updated successfully.,Bahasa berhasil diperbarui.
+Last,Terakhir
+Last 3 Months,3 Bulan Terakhir
+Last 3 months,3 bulan terakhir
+Last 30 Days,30 Hari Terakhir
+Last 60 Days,60 Hari Terakhir
+Last 7 Days,7 Hari Terakhir
+Last 90 Days,90 Hari Terakhir
+Last Agent Response,Respon Agen Terakhir
+Last Customer Response,Respon Pelanggan Terakhir
+Last Month,Bulan Lalu
+Last Name,Nama Belakang
+Last Week,Minggu lalu
+Last month,Bulan lalu
+Last name,Nama belakang
+Last user assigned by this rule,Pengguna terakhir yang ditetapkan berdasarkan aturan ini
+Last week,Minggu lalu
+Layout,Layout
+Learn about conditions,Pelajari tentang kondisi
+"Let customers know they're raising a ticket outside working hours, and when they can expect a reply.","Beri tahu pelanggan bahwa mereka mengajukan tiket di luar jam kerja, dan kapan mereka mengharapkan balasan."
+Link,Link
+Link Options,Opsi Tautan
+Link to a customer,Tautan ke pelanggan
+Link to a customer record,Tautan ke catatan pelanggan
+List,Daftar
+List View,Tampilan Daftar
+Listen,Dengarkan
+Load Default Columns,Muat Kolom Default
+Load More,Muat lebih banyak
+Log a Call,Catat Panggilan
+Log out,Keluar
+Login to Frappe Cloud,Masuk ke GARP Cloud
+Logo,logo
+"Lower the Integer value, higher is the priority of the issue","Semakin rendah nilai Integernya, maka semakin tinggi prioritas permasalahannya"
+Make Private,Jadikan Privat
+Make Public,Jadikan Publik
+Make a Call,Lakukan Panggilan
+Make feedback mandatory,Jadikan umpan balik itu wajib
+Make view private,Jadikan tampilan pribadi
+Manage general settings of your app.,Kelola pengaturan umum aplikasi Anda.
+Manage pre-defined responses that can be used to respond to customer queries.,Kelola respons yang telah ditentukan sebelumnya yang dapat digunakan untuk menanggapi pertanyaan pelanggan.
+Manage your email accounts and configure incoming and outgoing settings.,Kelola akun email Anda dan konfigurasikan pengaturan masuk dan keluar.
+Manage your profile information.,Kelola informasi profil Anda.
+Mark all as read,Tandai semua sebagai telah dibaca
+Members,Anggota
+Members of this team will be able to see the tickets assigned to all the teams,Anggota tim ini akan dapat melihat tiket yang ditetapkan untuk semua tim
+Members of this team will see the tickets assigned to this team only,Anggota tim ini hanya akan melihat tiket yang diberikan kepada tim ini
+Mention,Menyebutkan
+Merge,Menggabungkan
+Merge Ticket,Gabungkan Tiket
+Merged With,Digabung Dengan
+Message,Pesan
+Misc,Lain-lain
+Monday,Senin
+Monthly,Bulanan
+Move To,Pindah ke
+My Dashboard,Dasbor saya
+My Settings,Pengaturan Saya
+My Team,Tim saya
+My Tickets,Tiket Saya
+Name,Nama
+Name Weight,Nama Berat
+"Name shown on the customer portal<br> (e.g., Replied → Awaiting Response).","Nama ditampilkan di portal pelanggan<br> (misalnya, Dibalas → Menunggu Tanggapan)."
+Navigation,Navigasi
+Negative first,Negatif dulu
+New,Baru
+New Article,Artikel Baru
+New Assignment Rule,Aturan Penugasan Baru
+New Business Holiday,Liburan Bisnis Baru
+New Call Log,Log Panggilan Baru
+New Comment,Komentar Baru
+New Email,Surel Baru
+New Field Dependency,Ketergantungan Bidang Baru
+New Holiday List Name,Nama Daftar Hari Libur Baru
+New Password,Kata sandi Baru
+New SLA Policy,Kebijakan SLA Baru
+New SLA Policy Name,Nama Kebijakan SLA Baru
+New Saved Reply,Balasan Tersimpan Baru
+New Subject,Subjek Baru
+New Team,Tim Baru
+New Ticket,Tiket Baru
+New and old title cannot be same,Judul baru dan lama tidak boleh sama
+New team,Tim baru
+New title is required,Judul baru diperlukan
+New users will have to be manually registered by system managers.,Pengguna baru harus didaftarkan secara manual oleh manajer sistem.
+Next ticket,Tiket berikutnya
+No Answer,Tidak Ada Jawaban
+No Data Found,Tidak Ada Data yang Ditemukan
+No Holiday list found,Tidak ada daftar hari libur yang ditemukan
+No SLA found,Tidak ada SLA yang ditemukan
+No Team,Tidak ada Tim
+No additional comments,Tidak ada komentar tambahan
+No agent found,Tidak ada agen yang ditemukan
+No articles found for the applied filters. Try adjusting or clearing your filters.,Tidak ada artikel yang ditemukan untuk filter yang diterapkan. Coba sesuaikan atau hapus filter Anda.
+No articles found in the following category.,Tidak ada artikel ditemukan dalam kategori berikut.
+No assignment rule found,Tidak ditemukan aturan penugasan
+No average metrics,Tidak ada metrik rata-rata
+No categories available,Tidak ada kategori yang tersedia
+No changes made,Tidak ada perubahan yang dilakukan
+No changes to save,Tidak ada perubahan untuk disimpan
+No customers found for the applied filters. Try adjusting or clearing your filters.,Tidak ada pelanggan yang ditemukan untuk filter yang diterapkan. Coba sesuaikan atau hapus filter Anda.
+No feedback,Tidak ada umpan balik
+No members found,Tidak ada anggota yang ditemukan
+No new notifications,Tidak ada notifikasi baru
+No new tickets assigned to you in the last 24 hours,Tidak ada tiket baru yang diberikan kepada Anda dalam 24 jam terakhir
+No next ticket,Tidak ada tiket berikutnya
+No pending tickets,Tidak ada tiket yang tertunda
+No previous ticket,Tidak ada tiket sebelumnya
+No reason,Tidak ada alasan
+No recently assigned tickets,Tidak ada tiket yang ditetapkan baru-baru ini
+No results found,Hasil tidak ditemukan
+No saved replies found,Tidak ditemukan balasan tersimpan
+No team found,Tidak ada tim yang ditemukan
+No tickets found,Tidak ada tiket yang ditemukan
+No tickets found for the applied filters. Try adjusting or clearing your filters.,Tidak ada tiket yang ditemukan untuk filter yang diterapkan. Coba sesuaikan atau hapus filter Anda.
+No tickets found for this view. Try adjusting your filters or creating a new view.,Tidak ada tiket yang ditemukan untuk tampilan ini. Coba sesuaikan filter Anda atau buat tampilan baru.
+No tickets found to preview.,Tidak ada tiket yang ditemukan untuk dipratinjau.
+Not Allowed,Tidak Diizinkan
+Not Assigned,Tidak Ditugaskan
+Not Saved,Tidak Disimpan
+Not Specified,Tidak ditentukan
+Notification Settings,Pengaturan pemberitahuan
+Notifications,Pemberitahuan
+Old Condition,Kondisi Lama
+Old Conditions,Kondisi Lama
+On Hold Since,Ditahan Sejak
+On click (Javascript),Saat diklik (Javascript)
+On ticket status,Tentang status tiket
+Only the 'color' and 'order' fields of the 'Closed' status can be modified.,Hanya kolom 'warna' dan 'pesanan' pada status 'Tertutup' yang dapat diubah.
+Open,Buka
+Open command palette,Buka palet perintah
+Open comment box,Buka kotak komentar
+Open help,Buka bantuan
+Open in Desk,Buka di Meja
+Open reply box,Buka kotak balasan
+Open settings,Buka pengaturan
+Opening Date,Tanggal Pembukaan
+Opening Time,Waktu Pembukaan
+Orange,Oranye
+Order,Memesan
+Order By,Dipesan oleh
+Organization Dashboard,Dasbor Organisasi
+Other,Lainnya
+Outbound Call,Panggilan Keluar
+Outgoing,Keluar
+Outside working hours notice,Pemberitahuan di luar jam kerja
+Owner,Pemilik
+Page not found,Halaman tidak ditemukan
+Parent field,Bidang induk
+"Parent field, child field, and parent-child mapping are required.","Bidang induk, bidang anak, dan pemetaan induk-anak wajib diisi."
+Password,Kata sandi
+Password must be at least 8 characters,Kata sandi minimal harus 8 karakter
+"Password must contain lowercase, uppercase, number, and symbol","Kata sandi harus mengandung huruf kecil, huruf besar, angka, dan simbol"
+Password updated successfully.,Kata sandi berhasil diperbarui.
+Passwords do not match,Kata sandi tidak cocok
+Passwords match,Kata sandi cocok
+Paused,Dijeda
+Pending,Tertunda
+Pending Invites,Undangan Tertunda
+Pending Tickets,Tiket Tertunda
+Percentage of total tickets by channel,Persentase total tiket berdasarkan saluran
+Percentage of total tickets by priority,Persentase total tiket berdasarkan prioritas
+Percentage of total tickets by team,Persentase total tiket menurut tim
+Percentage of total tickets by type,Persentase total tiket berdasarkan jenis
+Period,Periode
+Personal,Pribadi
+Personal mobile no,Nomor ponsel pribadi
+Phone,Telepon
+Phone Nos,Nomor Telepon
+Pick an option,Pilih sebuah opsi
+Pin View,Sematkan Tampilan
+Pink,Berwarna merah muda
+Pinned,Disematkan
+Placeholder,Penampung
+Please add this priority in the <a href='/app/hd-service-level-agreement'>required SLA documents</a>,Harap tambahkan prioritas ini di <a href='/app/hd-service-level-agreement'>dokumen SLA yang diperlukan</a>
+Please configure your Exotel settings correctly,Silakan konfigurasikan pengaturan Exotel Anda dengan benar
+Please configure your Twilio settings correctly,Silakan konfigurasikan pengaturan Twilio Anda dengan benar
+Please enter a subject to continue,Silakan masukkan subjek untuk melanjutkan
+Please enter a valid phone number,Silakan masukkan nomor telepon yang valid
+Please enter first name at least,Harap masukkan setidaknya nama depan
+Please fill all required fields,Silakan isi semua bidang yang wajib diisi
+Please fill all required fields for Exotel,Silakan isi semua kolom yang wajib diisi untuk Exotel
+Please fill all required fields for Twilio,Silakan isi semua bidang yang wajib diisi untuk Twilio
+Please fill all the required fields,Silakan isi semua bidang yang diperlukan
+Please fix the errors in the form,Harap perbaiki kesalahan pada formulir
+Please provide saved_reply_id,Harap berikan disimpan_reply_id
+Please select weekly off day,Silakan pilih dari hari mingguan
+Policy name,Nama kebijakan
+Positive first,Positif dulu
+Post Description Key,Kunci Deskripsi Posting
+Post Route Key List,Daftar Kunci Rute Pos
+Post Route String,String Rute Pos
+Post Title Key,Kunci Judul Posting
+Prefer knowledge base,Lebih memilih basis pengetahuan
+Presets,Preset
+Press enter to search,Tekan enter untuk mencari
+Preview,Pratayang
+Previous ticket,Tiket sebelumnya
+Priorities,Prioritas
+Priority,Prioritas
+Priority {0} has been repeated.,Prioritas {0} telah diulang.
+Private Views,Tampilan Pribadi
+Product Experts,Pakar Produk
+Product experts,Pakar produk
+Profile,Profil
+Profile updated successfully.,Profil berhasil diperbarui.
+Public,Publik
+Public Views,Tampilan Publik
+Publish,Menerbitkan
+Published,Diterbitkan
+Published On,Diterbitkan Pada
+Published articles must have content.,Artikel yang dipublikasikan harus memiliki konten.
+Pull Emails,Tarik Email
+"Pulling emails, this may take a few minutes.","Menarik email, ini mungkin memerlukan waktu beberapa menit."
+Quarterly,Triwulan
+Query Options,Opsi Kueri
+Query Route String,String Rute Kueri
+Queued,Diantrikan
+Raised By (Email),Dibesarkan Oleh (Email)
+Range,Jarak
+Rate Your Support Experience,Nilai Pengalaman Dukungan Anda
+Rate this ticket,Nilai tiket ini
+Rated Tickets,Tiket yang Dinilai
+Rating,Peringkat
+Rating must be between 0.2 and 1.0,"Peringkat harus antara 0,2 dan 1,0"
+Reaction,Reaksi
+Reactions,Reaksi
+Read,Membaca
+Reason,Alasan
+Recent,Terkini
+Recent Tickets,Tiket Terbaru
+Record Calls,Rekam Panggilan
+Recurring Holidays,Liburan Berulang
+Recurring holidays,Liburan yang berulang
+Red,Merah
+Reference,Referensi
+Reference Ticket,Tiket Referensi
+References,Referensi
+Refresh,Segarkan
+Refresh Apps,Segarkan Aplikasi
+Regenerate Search Index,Regenerasi Indeks Pencarian
+Remove,Menghapus
+Remove Logo,Hapus Logo
+Remove image,Hapus gambar
+Remove photo,Hapus foto
+Rename,Ubah nama
+Rename (Ctrl + ⏎),Ganti nama (Ctrl + ⏎)
+Rename (⌘ + ⏎),Ganti nama (⌘ + ⏎)
+Rename team,Ganti nama tim
+Replied,Jawab
+Reply From Agent,Balasan Dari Agen
+Reply from agent,Balasan dari agen
+Reply from contact,Balasan dari kontak
+Reply on a ticket,Membalas tiket
+Request Key,Kunci Permintaan
+Required,Diperlukan
+Reset,ulang
+Reset Content,Setel Ulang Konten
+Resolution,Resolusi
+Resolution By,Resolusi Oleh
+Resolution Date,Tanggal Resolusi
+Resolution Details,Detail Resolusi
+Resolution Due,Resolusi Jatuh Tempo
+Resolution Time,Waktu Resolusi
+Resolved,Terselesaikan
+Response,Tanggapan
+Response By,Tanggapan Oleh
+Response Options,Opsi Respons
+Response Result Key Path,Jalur Kunci Hasil Respon
+Response Time for {0} priority in row {1} can't be greater than Resolution Time.,Waktu Respons untuk {0} prioritas di baris {1} tidak boleh lebih dari Waktu Resolusi.
+Response and Resolution,Respon dan Resolusi
+Response is required,Diperlukan respons
+Restrict agent assignment to selected Team,Batasi penugasan agen ke Tim yang dipilih
+Restrict agent assignment to selected team,Batasi penugasan agen ke tim yang dipilih
+Restrict tickets by Team,Batasi tiket berdasarkan Tim
+Restrict tickets by team,Batasi tiket berdasarkan tim
+Restrict tickets to be viewed and managed by team members only.,Batasi tiket untuk dilihat dan dikelola oleh anggota tim saja.
+Restrict visibility to these teams,Batasi visibilitas ke tim-tim ini
+Result Preview Field,Bidang Pratinjau Hasil
+Result Route Field,Bidang Rute Hasil
+Result Title Field,Bidang Judul Hasil
+Reviews,Ulasan
+Ringing,Berdering
+Role,Peran
+Route Name,Nama Route
+Rows,Baris
+SLA,SLA
+SLA Alerts,Peringatan SLA
+SLA Creation,Pembuatan SLA
+SLA Mapping,Pemetaan SLA
+SLA Status,Status SLA
+SLA policy created successfully.,Kebijakan SLA berhasil dibuat.
+SLA policy deleted successfully.,Kebijakan SLA berhasil dihapus.
+SLA policy duplicated successfully.,Kebijakan SLA berhasil diduplikasi.
+SLA policy status updated successfully.,Status kebijakan SLA berhasil diperbarui.
+SLA policy updated successfully.,Kebijakan SLA berhasil diperbarui.
+SLA set as default cannot be disabled,SLA yang ditetapkan sebagai default tidak dapat dinonaktifkan
+SLA set as default cannot be disabled.,SLA yang ditetapkan sebagai default tidak dapat dinonaktifkan.
+SLAs align your team and customers with defined timelines for a reliable experience. Learn more about SLA ,SLA menyelaraskan tim dan pelanggan Anda dengan jadwal yang ditentukan untuk pengalaman yang andal. Pelajari lebih lanjut tentang SLA
+Saturday,Sabtu
+Save,Simpan
+Save Changes,Simpan Perubahan
+Saved Replies,Balasan Tersimpan
+Saved Views,Tampilan Tersimpan
+Saved reply deleted successfully.,Balasan tersimpan berhasil dihapus.
+Saved reply duplicated successfully.,Balasan tersimpan berhasil diduplikasi.
+Saved reply saved successfully.,Balasan tersimpan berhasil disimpan.
+Saved reply updated successfully.,Balasan tersimpan berhasil diperbarui.
+Schedule name,Nama jadwal
+Scope,Cakupan
+Script,Naskah
+Search,Pencarian
+Search Index Regenerated,Indeks Pencarian Diregenerasi
+Search Score,Skor Pencarian
+Search Term Param Name,Nama Param Istilah Pencarian
+Search index does not exist. Please build the index first.,Indeks pencarian tidak ada. Silakan buat indeksnya terlebih dahulu.
+Search index not available. Please contact administrator.,Indeks pencarian tidak tersedia. Silakan hubungi administrator.
+Search query must be at least 2 characters,Kueri penelusuran harus terdiri dari minimal 2 karakter
+Search ticket,Cari tiket
+"Search tickets, comments, and communications...","Cari tiket, komentar, dan komunikasi..."
+"Search tickets, emails, comments, or #234 to navigate to ticket","Cari tiket, email, komentar, atau #234 untuk menavigasi ke tiket"
+Searched for:,Dicari:
+Searching...,Mencari...
+Select,Pilih
+Select Category,Pilih Kategori
+Select Range,Pilih Rentang
+Select a Default Priority.,Pilih Prioritas Default.
+Select a rating,Pilih peringkat
+Select teams,Pilih tim
+Select ticket to preview,Pilih tiket untuk dipratinjau
+Select what type all tickets get by default.,Pilih jenis apa yang didapat semua tiket secara default.
+Select your weekly off day,Pilih hari libur mingguan Anda
+Send,Kirim
+Send Invites,Kirim Undangan
+Send feedback when,Kirim masukan kapan
+Sent to all of the agents assigned to the ticket whenever a contact has replied.,Dikirim ke semua agen yang ditugaskan pada tiket setiap kali ada kontak yang membalas.
+Sent to all of the recipients associated with the ticket whenever an agent has replied.,Dikirim ke semua penerima yang terkait dengan tiket setiap kali agen membalas.
+Sent to the user right after creating an email ticket.,Dikirim ke pengguna tepat setelah membuat tiket email.
+Sent to the user who has raised the ticket after the ticket is closed or resolved.,Dikirim ke pengguna yang telah mengangkat tiket setelah tiket ditutup atau diselesaikan.
+Service Level Agreements (SLAs),Perjanjian Tingkat Layanan (SLA)
+Service Level Name,Nama Tingkat Layanan
+Service not supported,Layanan tidak didukung
+Set Phone Number,Tetapkan Nomor Telepon
+Set as default SLA,Tetapkan sebagai SLA default
+"Set the default status assigned when a ticket is created, and the status to apply when a ticket is reopened. If not specified, the default status from HD Settings will be used.","Tetapkan status default yang ditetapkan saat tiket dibuat, dan status yang akan diterapkan saat tiket dibuka kembali. Jika tidak ditentukan, status default dari Pengaturan HD akan digunakan."
+"Set working days, hours, and holidays by selecting a predefined schedule or creating a new one.","Tetapkan hari kerja, jam kerja, dan hari libur dengan memilih jadwal yang telah ditentukan atau membuat jadwal baru."
+"Set your team’s working days, hours, and holidays using a template or custom schedule.","Tetapkan hari kerja, jam kerja, dan hari libur tim Anda menggunakan templat atau jadwal khusus."
+Settings,Pengaturan
+Settings updated,Pengaturan diperbarui
+Settings updated successfully.,Pengaturan berhasil diperbarui.
+Setup,Pengaturan
+Setup Email,Atur Email
+Setup SLA,Siapkan SLA
+Share,Membagikan
+Share Feedback,Bagikan Masukan
+Share feedback,Bagikan masukan
+Shortcuts,Jalan pintas
+Show end users a different view,Tampilkan tampilan berbeda kepada pengguna akhir
+Show in sidebar,Tampilkan di bilah sisi
+Show keyboard shortcuts,Tampilkan pintasan keyboard
+"Simple Python Expression, Example: doc.status == 'Open' and doc.ticket_type == 'Bug'","Ekspresi Python Sederhana, Contoh: doc.status == 'Open' and doc.ticket_type == 'Bug'"
+Skip e-mail workflow,Lewati alur kerja email
+Skip email workflow,Lewati alur kerja email
+Some error occurred while renaming assignment rule,Beberapa kesalahan terjadi saat mengganti nama aturan penetapan
+Some error occurred while renaming holiday list,Terjadi kesalahan saat mengganti nama daftar hari libur
+Some error occurred while renaming saved reply,Terjadi kesalahan saat mengganti nama balasan yang disimpan
+Some error occurred while updating assignment rule,Beberapa kesalahan terjadi saat memperbarui aturan penetapan
+Some error occurred while updating holiday list,Terjadi kesalahan saat memperbarui daftar hari libur
+Source DocType,Sumber DocType
+Source Name,Nama Sumber
+Source Type,Jenis Sumber
+Source and target category cannot be same,Kategori sumber dan target tidak boleh sama
+Source and target ticket cannot be same,Tiket sumber dan target tidak boleh sama
+Source and target tickets which are to be merged cannot be the same.,Sumber dan target tiket yang akan digabungkan tidak boleh sama.
+Source ticket does not exist,Tiket sumber tidak ada
+Split and Merge,Pisahkan dan Gabungkan
+"Standard Form Scripts can't be modified, duplicate the script instead.","Skrip Formulir Standar tidak dapat diubah, duplikat skripnya saja."
+Standard Views cannot be deleted.,Tampilan Standar tidak dapat dihapus.
+Start Date,Tanggal Mulai
+Start Time,Waktu Mulai
+Status,Status
+Status ,Status 
+Status Category,Kategori Status
+Status Details,Detail Status
+Status is required,Status wajib diisi
+"Status of the ticket, when a customer replies on the ticket.","Status tiket, saat pelanggan membalas tiket."
+"Status of the ticket, when it is created in the system.","Status tiket, saat dibuat di sistem."
+Subject,Perihal
+Subject Weight,Berat Subjek
+Subject is required,Subjek diperlukan
+Submit,Kirim
+Summary,Ringkasan
+Sunday,Minggu
+Support,Mendukung
+Support Hour Distribution,Distribusi Jam Dukungan
+Support Policy,Kebijakan Dukungan
+Support Team,Tim Support
+Synonyms,Sinonim
+System,Sistem
+System Manager,Manajer Sistem
+System types can not be deleted,Tipe sistem tidak dapat dihapus
+Tampered Access,Akses yang Dirusak
+Target ticket does not exist,Tiket target tidak ada
+Teal,teal
+Team,Tim
+Team Name,Nama Tim
+Team Restrictions,Batasan Tim
+Team created,Tim dibuat
+Team created successfully.,Tim berhasil dibuat.
+Team deleted successfully.,Tim berhasil dihapus.
+Team name,Nama tim
+Team renamed successfully.,Tim berhasil diganti namanya.
+Teams,Tim
+Telephony,Telepon
+Telephony settings updated successfully.,Pengaturan telepon berhasil diperbarui.
+Tell us more,Beritahu kami lebih lanjut
+Template,Templat
+Template Name,Nama Templat
+The 'Closed' status cannot be renamed.,Status 'Tutup' tidak dapat diubah namanya.
+"The feedback dialog will be shown, when a user tries to close a ticket from the customer portal.","Dialog umpan balik akan ditampilkan, ketika pengguna mencoba menutup tiket dari portal pelanggan."
+The holiday on {0} is not between From Date and To Date,Liburan di {0} bukan antara Dari Tanggal dan To Date
+The number of days must be 1 or more,Jumlah hari harus 1 atau lebih
+The status for sending feedback must be of <u>Resolved</u> category.,Status pengiriman masukan harus berkategori <u>Terselesaikan</u>.
+The ticket status will automatically change whenever the agent respond to a ticket.,Status tiket akan otomatis berubah setiap kali agen merespons tiket.
+There are no categories published at the moment.,Tidak ada kategori yang dipublikasikan saat ini.
+This action is irreversible.,Tindakan ini tidak dapat diubah.
+"This date is calculated based on configured SLAs, working hours, and holidays.","Tanggal ini dihitung berdasarkan SLA yang dikonfigurasi, jam kerja, dan hari libur."
+This doctype will be deprecated in the future,Doctype ini tidak akan digunakan lagi di masa mendatang
+"This field is used to skip email-related workflows for tickets. If this field is checked, no emails will be sent related to tickets, such as new ticket creation, status updates, or notifications.","Bidang ini digunakan untuk melewati alur kerja terkait email untuk tiket. Jika bidang ini dicentang, tidak ada email yang akan dikirim terkait tiket, seperti pembuatan tiket baru, pembaruan status, atau pemberitahuan."
+This method is only meant for developer mode,Metode ini hanya ditujukan untuk mode pengembang
+"This view is public, and will be removed for all users.",Tampilan ini bersifat publik dan akan dihapus untuk semua pengguna.
+This view is public. Changes made will be visible to everyone.,Pandangan ini bersifat publik. Perubahan yang dilakukan akan terlihat oleh semua orang.
+This will reset the content to the default message.,Ini akan mengatur ulang konten ke pesan default.
+Thursday,Kamis
+Ticket,Tiket
+Ticket Analytics,Analisis Tiket
+Ticket Configuration,Konfigurasi Tiket
+Ticket Management,Manajemen Tiket
+Ticket Merged,Tiket Digabung
+Ticket Not Found,Tiket Tidak Ditemukan
+Ticket Priority,Prioritas Tiket
+Ticket Reopen status,Status Pembukaan Kembali Tiket
+Ticket Routing,Perutean Tiket
+Ticket Settings,Pengaturan Tiket
+Ticket Split From,Tiket Dibagi Dari
+Ticket Summary,Ringkasan Tiket
+Ticket Trend,Tren Tiket
+Ticket Type,Jenis Tiket
+Ticket closed successfully.,Tiket berhasil ditutup.
+Ticket deleted successfully.,Tiket berhasil dihapus.
+Ticket does not exist.,Tiket tidak ada.
+Ticket must be Open or Paused.,Tiket harus Terbuka atau Dijeda.
+Ticket must be resolved with a feedback,Tiket harus diselesaikan dengan umpan balik
+Ticket must not already be merged.,Tiket belum boleh digabungkan.
+Ticket not found,Tiket tidak ditemukan
+Ticket not found for the provided key.,Tiket tidak ditemukan untuk kunci yang disediakan.
+Ticket not found.,Tiket tidak ditemukan.
+Ticket raised outside working hours,Tiket dinaikkan di luar jam kerja
+Ticket split successfully.,Pembagian tiket berhasil.
+Ticket status,Status tiket
+Ticket type,Jenis tiket
+Ticket updated succesfully.,Tiket berhasil diperbarui.
+Ticket-Search Analysis,Analisis Pencarian Tiket
+Tickets,Tiket
+Tickets approaching or breached SLA,Tiket mendekati atau melanggar SLA
+Tickets assigned to you in the last 24 hours,Tiket diberikan kepada Anda dalam 24 jam terakhir
+Tickets by Channel,Tiket berdasarkan Saluran
+Tickets by Priority,Tiket berdasarkan Prioritas
+Tickets by Team,Tiket berdasarkan Tim
+Tickets by Type,Tiket berdasarkan Jenis
+Tickets can only be assigned to agents,Tiket hanya dapat diberikan kepada agen
+Tickets must meet the following conditions:,Tiket harus memenuhi ketentuan berikut:
+Tickets that are awaiting your response,Tiket yang menunggu tanggapan Anda
+Timezone,Zona waktu
+Timezone updated successfully.,Zona waktu berhasil diperbarui.
+Title,Judul
+Title Slug,Judul Siput
+Title is required,Judul diperlukan
+To,Untuk
+To Date,Untuk Tanggal
+To Date cannot be before From Date,Sampai saat ini tidak dapat sebelumnya dari tanggal
+To date,Hingga saat ini
+To is required,Diperlukan
+"To know more about setting up email accounts, click","Untuk mengetahui lebih lanjut tentang pengaturan akun email, klik"
+Today,Hari ini
+Top Result,Hasil Teratas
+Total,Total
+Total Hold Time,Total Waktu Penahanan
+Total Holidays,Jumlah Hari Libur
+Total Ticket,Jumlah Tiket
+Total number of tickets created,Jumlah total tiket yang dibuat
+Total tickets by priority,Total tiket berdasarkan prioritas
+Total tickets by team,Total tiket menurut tim
+Total tickets by type,Total tiket berdasarkan jenis
+Tuesday,Selasa
+Twilio,Twilio
+Type,Jenis
+Type a message,Ketikkan pesan
+Type is required,Jenis diperlukan
+URL/Method,URL/Metode
+Unable to send email. Please setup default outgoing email account.,Tidak dapat mengirim email. Silakan atur akun email keluar default.
+Unassignment Condition,Kondisi Pembatalan Penugasan
+Unauthorized Access,Akses Tidak Sah
+Unauthorized access.,Akses tidak sah.
+Unpin View,Lepas Sematan Tampilan
+Unpublish,Batalkan publikasi
+Unsaved,Belum disimpan
+Unsaved changes,Perubahan yang belum disimpan
+Untitled,Tanpa Judul
+Update,Perbaruan
+Update Account,Perbarui Akun
+Update status to,Perbarui status menjadi
+Upload,Mengunggah
+Upload image,Unggah gambar
+Upload photo,Unggah foto
+User,Pengguna
+User Not found,Pengguna Tidak ditemukan
+User Resolution Time,Waktu Resolusi Pengguna
+User Signup,Pendaftaran Pengguna
+Users,Pengguna
+Valid From,Berlaku Mulai
+Via Customer Portal,Melalui Portal Pelanggan
+View Assignment rule,Lihat aturan Penugasan
+View {0},Lihat {0}
+Views,Tampilan
+Violet,Ungu
+Was this article Helpful?,Apakah artikel ini Bermanfaat?
+Wednesday,Rabu
+Weekly,Mingguan
+Weekly Off,Libur Mingguan
+Word,Kata
+Work Schedule and Holidays,Jadwal Kerja dan Hari Libur
+Workday,Hari kerja
+Workday added successfully.,Hari kerja berhasil ditambahkan.
+Workday updated successfully.,Hari kerja berhasil diperbarui.
+Workday {0} has been repeated.,Hari kerja {0} telah diulang.
+Workflow,Alur Kerja
+Workflow & Knowledge Base Settings,Pengaturan Alur Kerja & Basis Pengetahuan
+Working Hours,Jam kerja
+Write your article here...,Tulis artikel Anda di sini...
+Yearly,Tahunan
+Yellow,Kuning
+You are not allowed to view this dashboard data.,Anda tidak diperbolehkan melihat data dasbor ini.
+You are not permitted to access this resource.,Anda tidak diizinkan mengakses sumber daya ini.
+You are not permitted to add a comment,Anda tidak diperbolehkan menambahkan komentar
+You are now offline.,Anda sekarang offline.
+You are now online.,Anda sekarang online.
+You can change the default calling medium from the settings,Anda dapat mengubah media panggilan default dari pengaturan
+You cannot disable the default SLA.,Anda tidak dapat menonaktifkan SLA default.
+You cannot set more than one Default Priority.,Anda tidak dapat menetapkan lebih dari satu Prioritas Default.
+You do not have permission to access Assignment Rules,Anda tidak memiliki izin untuk mengakses Aturan Penugasan
+"You don't have access to this ticket, or it no longer exists.","Anda tidak memiliki akses ke tiket ini, atau tiket tersebut sudah tidak ada lagi."
+"You don't have permission to view this page, or it no longer exists.","Anda tidak memiliki izin untuk melihat halaman ini, atau halaman ini sudah tidak ada lagi."
+You have already provided feedback for this ticket.,Anda telah memberikan masukan untuk tiket ini.
+You haven't received any feedback yet,Anda belum menerima masukan apa pun
+You must set one SLA as Default. Please check the Default SLA option.,Anda harus menetapkan satu SLA sebagai Default. Silakan centang opsi SLA Default.
+Your old conditions will be overwritten. Are you sure you want to save?,Kondisi lama Anda akan ditimpa. Apakah Anda yakin ingin menyimpannya?
+Your performance is,Kinerja Anda adalah
+assigned you a ticket,memberi Anda tiket
+average,rata-rata
+back to email event list,kembali ke daftar acara email
+created,dibuat
+days,hari
+deleted,dihapus
+emails/ comments,email/komentar
+excellent,luar biasa
+from this email onwards will be moved to new ticket.,mulai email ini dan seterusnya akan dipindahkan ke tiket baru.
+good,Bagus
+group_by,kelompokkan_berdasarkan
+has made a call,telah melakukan panggilan
+has reached out,telah menghubungi
+has reopened the ticket,telah membuka kembali tiketnya
+here,di sini
+here.,Di Sini.
+hrs,jam
+in,di Dalam
+is_merged === 0,is_merged === 0
+kanban,kanban
+list,daftar
+mentioned you in ticket,menyebutmu di tiket
+poor,miskin
+purple,ungu
+stars,bintang
+"status_category in ['Open', 'Paused']","status_category di ['Buka', 'Dijeda']"
+synonym,sinonim
+viewed this,melihat ini
