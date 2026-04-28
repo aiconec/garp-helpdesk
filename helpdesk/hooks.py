@@ -1,12 +1,12 @@
 app_name = "helpdesk"
-app_title = "Helpdesk"
-app_publisher = "Frappe Technologies"
+app_title = "GARP Helpdesk"
+app_publisher = "Aiconec GARP"
 app_description = "Customer Service Software"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "hello@frappe.io"
+app_email = "engineering@aiconec.com"
 app_license = "AGPLv3"
-required_apps = ["telephony"]
+required_apps = []
 require_type_annotated_api_methods = True
 
 add_to_apps_screen = [
