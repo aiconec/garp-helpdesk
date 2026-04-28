@@ -1,7 +1,7 @@
 [project]
 name = "helpdesk"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "hello@frappe.io"}
+    { name = "Aiconec GARP", email = "engineering@aiconec.com"}
 ]
 description = "Open Source Customer Service Software"
 requires-python = ">=3.14"
