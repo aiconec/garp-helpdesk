@@ -2967,7 +2967,7 @@ msgstr "Keluar"
 
 #: desk/src/components/layouts/Sidebar.vue:334
 msgid "Login to Frappe Cloud"
-msgstr "Masuk ke Frappe Cloud"
+msgstr "Masuk ke GARP Cloud"
 
 #. Label of the brand_logo (Attach Image) field in DocType 'HD Settings'
 #: desk/src/components/Settings/General/components/Branding.vue:15
