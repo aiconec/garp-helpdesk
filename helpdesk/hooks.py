@@ -12,7 +12,7 @@ require_type_annotated_api_methods = True
 add_to_apps_screen = [
     {
         "name": "helpdesk",
-        "logo": "/assets/helpdesk/desk/favicon.svg",
+        "logo": "/assets/helpdesk/images/garp-helpdesk-icon.svg",
         "title": "Helpdesk",
         "route": "/helpdesk",
         "has_permission": "helpdesk.api.permission.has_app_permission",
