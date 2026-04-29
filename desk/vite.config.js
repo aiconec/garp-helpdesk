@@ -53,7 +53,7 @@ export default defineConfig(async ({ mode }) => {
         },
         manifest: {
           display: "standalone",
-          name: "Frappe Helpdesk",
+          name: "GARP Helpdesk",
           short_name: "Helpdesk",
           start_url: "/helpdesk",
           description:
