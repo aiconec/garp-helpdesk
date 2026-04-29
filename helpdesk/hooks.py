@@ -1,5 +1,5 @@
 app_name = "helpdesk"
-app_title = "GARP Helpdesk"
+app_title = "Helpdesk"
 app_publisher = "Aiconec GARP"
 app_description = "Customer Service Software"
 app_icon = "octicon octicon-file-directory"
