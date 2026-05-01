@@ -13,7 +13,7 @@ add_to_apps_screen = [
     {
         "name": "helpdesk",
         "logo": "/assets/helpdesk/images/garp-helpdesk-icon.svg",
-        "title": "GARP Helpdesk",
+        "title": "Helpdesk",
         "route": "/helpdesk",
         "has_permission": "helpdesk.api.permission.has_app_permission",
     }
