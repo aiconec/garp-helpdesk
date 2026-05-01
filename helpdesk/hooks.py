@@ -1,5 +1,5 @@
 app_name = "helpdesk"
-app_title = "Helpdesk"
+app_title = "GARP Helpdesk"
 app_publisher = "Aiconec GARP"
 app_description = "Customer Service Software"
 app_icon = "octicon octicon-file-directory"
@@ -13,7 +13,7 @@ add_to_apps_screen = [
     {
         "name": "helpdesk",
         "logo": "/assets/helpdesk/images/garp-helpdesk-icon.svg",
-        "title": "Helpdesk",
+        "title": "GARP Helpdesk",
         "route": "/helpdesk",
         "has_permission": "helpdesk.api.permission.has_app_permission",
     }
