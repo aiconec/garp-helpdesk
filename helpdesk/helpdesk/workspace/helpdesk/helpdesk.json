@@ -162,5 +162,6 @@
  "roles": [],
  "sequence_id": 1,
  "shortcuts": [],
- "title": "GARP Helpdesk"
+ "title": "GARP Helpdesk",
+ "is_hidden": 1
 }
