@@ -150,7 +150,7 @@
       appName="helpdesk"
       title="GARP Helpdesk"
       :logo="logo"
-      docsLink="https://docs.frappe.io/helpdesk"
+      docsLink="https://garp.aiconec.com/docs"
       :afterSkip="(step: string) => capture('onboarding_step_skipped_' + step)"
       :afterSkipAll="() => capture('onboarding_steps_skipped')"
       :afterReset="(step: string) => capture('onboarding_step_reset_' + step)"
@@ -169,12 +169,11 @@ import HDLogo from "@/assets/logos/HDLogo.vue";
 import { Section, SidebarLink } from "@/components";
 import Apps from "@/components/Apps.vue";
 import CP from "@/components/command-palette/CP.vue";
-import { FrappeCloudIcon, InviteCustomer } from "@/components/icons";
+import { InviteCustomer } from "@/components/icons";
 import ShortcutsModal from "@/components/modals/ShortcutsModal.vue";
 import SettingsModal from "@/components/Settings/SettingsModal.vue";
 import UserMenu from "@/components/UserMenu.vue";
 import { useDevice } from "@/composables";
-import { confirmLoginToFrappeCloud } from "@/composables/fc";
 import { useScreenSize } from "@/composables/screen";
 import { currentView, useView } from "@/composables/useView";
 import { showNewContactModal } from "@/pages/desk/contact/dialogState";
@@ -345,13 +344,7 @@ const agentPortalDropdown = computed(() => [
   {
     icon: "book-open",
     label: __("Docs"),
-    onClick: () => window.open("https://docs.frappe.io/helpdesk"),
-  },
-  {
-    label: __("Login to Frappe Cloud"),
-    icon: FrappeCloudIcon,
-    onClick: () => confirmLoginToFrappeCloud(),
-    condition: () => !isMobileView.value && window.is_fc_site,
+    onClick: () => window.open("https://garp.aiconec.com/docs"),
   },
   {
     label: __("Shortcuts"),
