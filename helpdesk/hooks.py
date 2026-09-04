@@ -7,6 +7,8 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "engineering@aiconec.com"
 app_license = "AGPLv3"
+# AGPL/GPL source offer: the corresponding source of THIS modified version.
+source_link = "https://github.com/aiconec/garp-helpdesk"
 required_apps = []
 require_type_annotated_api_methods = True
 
