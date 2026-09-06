@@ -2,11 +2,14 @@ app_name = "helpdesk"
 app_title = "GARP Helpdesk"
 app_icon_title = "Helpdesk"
 app_publisher = "Aiconec GARP"
-app_description = "Customer Service Software"
+app_description = "GARP Helpdesk — customer support tickets and knowledge base"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "engineering@aiconec.com"
 app_license = "AGPLv3"
+# AGPL-3.0 section 13: this app is a modified version served over a network,
+# so its users are owed the corresponding source of THIS version.
+source_link = "https://github.com/aiconec/garp-helpdesk"
 required_apps = []
 require_type_annotated_api_methods = True
 

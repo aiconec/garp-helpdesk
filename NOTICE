@@ -1,0 +1,17 @@
+This is a MODIFIED version of frappe/helpdesk.
+
+Modified by Aiconec for the GARP ERP platform. Most recent modification:
+2026-09-06. Changes are principally branding -- application titles, descriptions
+and artwork -- so that the app presents as part of GARP ERP.
+
+The upstream project and its copyright holders are unchanged; see LICENSE and
+the copyright headers in the source files, which have been left intact.
+
+This program is licensed under the GNU Affero General Public License v3.0. It
+is served to users over a network, so under section 13 those users are offered
+the Corresponding Source of this modified version, which is published at:
+
+    https://github.com/aiconec/garp-helpdesk
+
+The same link is surfaced in the running product under Help -> About, beside
+this app's entry in the installed-apps list.
