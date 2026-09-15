@@ -30,6 +30,7 @@ from helpdesk.helpdesk.utils.email import (
     default_outgoing_email_account,
     default_ticket_outgoing_email_account,
 )
+from helpdesk.rate_limit import check_reply_rate_limit
 from helpdesk.search import HelpdeskSearch
 from helpdesk.utils import (
     capture_event,
@@ -255,6 +256,24 @@ class HDTicket(Document):
         self.ticket_type = ticket_type
 
     def set_raised_by(self):
+        # `raised_by` is the ticket's identity: `set_contact`/`set_customer` link
+        # the ticket to whoever owns that address, the acknowledgement email and
+        # every agent reply are addressed to it. A portal user supplying someone
+        # else's address would therefore file a ticket in that person's name and
+        # have the whole thread mailed to them, so non-agents may only raise
+        # tickets as themselves. Agents keep the ability to raise a ticket on a
+        # customer's behalf, and the inbound email workflow runs as
+        # Administrator, which `is_agent` treats as an agent.
+        if not is_agent():
+            if self.is_new():
+                self.raised_by = frappe.session.user
+            else:
+                # The reporter is fixed once the ticket exists: a portal user
+                # cannot re-point an existing thread at a third party either.
+                before_save = self.get_doc_before_save()
+                if before_save and before_save.raised_by:
+                    self.raised_by = before_save.raised_by
+
         self.raised_by = self.raised_by or frappe.session.user
 
     def set_contact(self):
@@ -564,6 +583,97 @@ class HDTicket(Document):
                 "HD Ticket Comment", c.name, attachment.get("file_url")
             )
 
+    def can_reply_to_any_address(self) -> bool:
+        """
+        Whether the current user may mail addresses unrelated to this ticket.
+
+        Looping an outsider into a thread is a real product need, but it is also
+        the open-relay primitive, so it belongs to the roles that already
+        administer the desk rather than to every agent.
+        """
+        if is_admin():
+            return True
+        roles = frappe.get_roles(frappe.session.user)
+        return "Agent Manager" in roles or "System Manager" in roles
+
+    @staticmethod
+    def _split_addresses(value: str | None) -> list[str]:
+        """Parse a comma/semicolon separated recipient string into addresses."""
+        addresses = []
+        for part in (value or "").replace(";", ",").split(","):
+            address = parseaddr(part.strip())[1]
+            if address:
+                addresses.append(address)
+        return addresses
+
+    def ticket_email_participants(self) -> set[str]:
+        """
+        Addresses already associated with this ticket, lowercased.
+
+        The reporter, every address the ticket's `Contact` is reachable at,
+        everyone already on the ticket's correspondence, and the site's own
+        agents. Nothing here is a new concept: these are the addresses the
+        thread already contains or is already sent to.
+        """
+        participants: set[str] = set()
+
+        def add(value: str | None):
+            participants.update(a.lower() for a in self._split_addresses(value))
+
+        add(self.raised_by)
+
+        if self.contact:
+            add(frappe.db.get_value("Contact", self.contact, "email_id"))
+            for email_id in frappe.get_all(
+                "Contact Email",
+                filters={"parent": self.contact, "parenttype": "Contact"},
+                pluck="email_id",
+            ):
+                add(email_id)
+
+        for communication in frappe.get_all(
+            "Communication",
+            filters={
+                "reference_doctype": "HD Ticket",
+                "reference_name": str(self.name),
+            },
+            fields=["sender", "recipients", "cc", "bcc"],
+        ):
+            add(communication.sender)
+            add(communication.recipients)
+            add(communication.cc)
+            add(communication.bcc)
+
+        # Agents can always be looped in: they can read the ticket anyway.
+        for agent in frappe.get_all("HD Agent", pluck="name"):
+            add(agent)
+        for user in frappe.get_all(
+            "Has Role",
+            filters={
+                "parenttype": "User",
+                "role": ["in", ["Agent", "Agent Manager"]],
+            },
+            pluck="parent",
+        ):
+            add(user)
+
+        return participants
+
+    def restrict_recipients(self, value: str | None, allowed: set[str]) -> str | None:
+        """Reject any caller-supplied address not already on this ticket."""
+        if not value:
+            return value
+
+        rejected = [a for a in self._split_addresses(value) if a.lower() not in allowed]
+        if rejected:
+            frappe.throw(
+                _(
+                    "Cannot send to {0}: the address is not associated with this ticket. Agent replies may only go to the ticket's contact, people already on this thread, or another agent."
+                ).format(", ".join(rejected)),
+                frappe.PermissionError,
+            )
+        return value
+
     @frappe.whitelist()
     def reply_via_agent(
         self,
@@ -578,6 +688,21 @@ class HDTicket(Document):
             frappe.throw(
                 _("You are not permitted to reply as an agent"), frappe.PermissionError
             )
+
+        # This endpoint puts caller-supplied mail on the wire from the site's
+        # shared outgoing account, so it is throttled per user. No-ops outside a
+        # request, which keeps merge/split and the inbound email workflow free.
+        check_reply_rate_limit()
+
+        # Recipients are only constrained when the caller supplies them. The
+        # default below (`self.raised_by`) is the ticket's own reporter, and the
+        # internal callers in `api.py` (merge_ticket, split_ticket) pass none.
+        if (to or cc or bcc) and not self.can_reply_to_any_address():
+            allowed = self.ticket_email_participants()
+            to = self.restrict_recipients(to, allowed)
+            cc = self.restrict_recipients(cc, allowed)
+            bcc = self.restrict_recipients(bcc, allowed)
+
         skip_email_workflow = self.skip_email_workflow()
         medium = "" if skip_email_workflow else "Email"
         subject = f"Re: {self.subject}"
@@ -592,6 +717,31 @@ class HDTicket(Document):
                 if not frappe.db.exists("Email Account", email_account_name):
                     frappe.throw(
                         _("No Email Account found for {0}").format(from_email_id)
+                    )
+                # `from_email_id` ends up as both the From and Reply-To header of
+                # the outgoing mail, so it may only be an address this user
+                # actually owns -- one of their `User Email` rows on that account
+                # (exactly what the desk's From picker offers) or the account's
+                # own address. Without this any agent could hand `sendmail` an
+                # arbitrary string and send as anyone.
+                owns_address = frappe.db.exists(
+                    "User Email",
+                    {
+                        "parent": frappe.session.user,
+                        "parenttype": "User",
+                        "email_account": email_account_name,
+                        "email_id": from_email_id,
+                    },
+                )
+                account_address = frappe.db.get_value(
+                    "Email Account", email_account_name, "email_id"
+                )
+                if not owns_address and from_email_id != account_address:
+                    frappe.throw(
+                        _("You are not permitted to send email as {0}").format(
+                            from_email_id
+                        ),
+                        frappe.PermissionError,
                     )
                 sender_email = frappe._dict(
                     name=email_account_name, email_id=from_email_id
