@@ -1,7 +1,7 @@
 app_name = "helpdesk"
-app_title = "Helpdesk"
+app_title = "GARP Helpdesk"
 app_publisher = "Frappe Technologies"
-app_description = "Customer Service Software"
+app_description = "Customer support tickets and service desk in GARP."
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "hello@frappe.io"
@@ -13,7 +13,7 @@ add_to_apps_screen = [
     {
         "name": "helpdesk",
         "logo": "/assets/helpdesk/desk/favicon.svg",
-        "title": "Helpdesk",
+        "title": "GARP Helpdesk",
         "route": "/helpdesk",
         "has_permission": "helpdesk.api.permission.has_app_permission",
     }
