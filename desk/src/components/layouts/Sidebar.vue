@@ -351,7 +351,8 @@ const agentPortalDropdown = computed(() => [
     label: __("Login to Frappe Cloud"),
     icon: FrappeCloudIcon,
     onClick: () => confirmLoginToFrappeCloud(),
-    condition: () => !isMobileView.value && window.is_fc_site,
+    // GARP is not hosted on Frappe Cloud: never offer to log in there, even if a site's config says otherwise.
+    condition: () => false,
   },
   {
     label: __("Shortcuts"),
