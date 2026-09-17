@@ -192,7 +192,7 @@ export const customerFields: FieldConfig[] = [
     key: "domain",
     type: "text",
     label: __("Domain"),
-    placeholder: "frappe.io",
+    placeholder: "example.com",
     prefix: h(LucideGlobe, { class: "size-4" }),
   },
 ];

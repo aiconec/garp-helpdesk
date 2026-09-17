@@ -1,11 +1,9 @@
-import LogoFrappeMail from "@/assets/images/frappe-mail.svg";
 import LogoGmail from "@/assets/images/gmail.png";
 import LogoOutlook from "@/assets/images/outlook.png";
 import LogoSendgrid from "@/assets/images/sendgrid.png";
 import LogoSparkpost from "@/assets/images/sparkpost.webp";
 import LogoYahoo from "@/assets/images/yahoo.png";
 import LogoYandex from "@/assets/images/yandex.png";
-import LogoFrappeMail from "@/assets/images/frappe-mail.svg";
 import { EmailAccount, EmailService, RenderField } from "@/types";
 import { validateEmailWithZod } from "@/utils";
 import { __ } from "@/translation";
@@ -238,15 +236,6 @@ export const services: EmailService[] = [
     custom: false,
   },
   {
-    name: "Frappe Mail",
-    icon: LogoFrappeMail,
-    info: __(
-      `Setting up Frappe Mail requires you to have an API key and API Secret of your email account. Read more`
-    ),
-    link: "https://github.com/frappe/mail",
-    custom: true,
-  },
-  {
     name: "Custom",
     icon: "",
     info: __(`Use your own IMAP/SMTP settings. Open in Desk`),
@@ -262,7 +251,6 @@ export const emailIcon = {
   SparkPost: LogoSparkpost,
   Yahoo: LogoYahoo,
   Yandex: LogoYandex,
-  "Frappe Mail": LogoFrappeMail,
   Custom: "",
 };
 

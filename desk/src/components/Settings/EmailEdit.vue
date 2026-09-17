@@ -269,7 +269,7 @@ const customState = reactive<CustomEmailAccountState>(getInitialCustomState());
 
 const info = {
   description: __("To know more about setting up email accounts, click"),
-  link: "https://docs.frappe.io/erpnext/user/manual/en/email-domain",
+  link: "https://garp.aiconec.com/docs/modules/helpdesk",
 };
 
 const deskEditUrl = computed(() => {

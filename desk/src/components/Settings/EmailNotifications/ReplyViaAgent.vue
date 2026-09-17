@@ -3,7 +3,7 @@
     v-model:content="content"
     :defaultContent="defaultContent"
     v-model:enabled="enabled"
-    documentationLink="https://docs.frappe.io/helpdesk/email-notifications#available-variables-reply-from-agent"
+    documentationLink="https://garp.aiconec.com/docs/modules/helpdesk/email-notifications#available-variables-reply-from-agent"
     ref="compRef"
     name="reply_via_agent"
     :title="props.notification.label"

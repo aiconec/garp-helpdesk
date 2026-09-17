@@ -121,7 +121,7 @@ const agentPortalDropdown = computed(() => [
   {
     icon: "lucide-book-open",
     label: __("Docs"),
-    onClick: () => window.open("https://docs.frappe.io/helpdesk"),
+    onClick: () => window.open("https://garp.aiconec.com/docs/modules/helpdesk"),
   },
   themeMenuItem.value,
   {
