@@ -7,7 +7,7 @@
     v-model:content="content"
     :defaultContent="defaultContent"
     v-model:enabled="enabled"
-    documentationLink="https://garp.aiconec.com/docs/modules/helpdesk/email-notifications#available-variables-share-feedback"
+    documentationLink="https://bizconnect.id/docs/modules/helpdesk/email-notifications#available-variables-share-feedback"
     :onBack="props.onBack"
     :onSubmit="onSubmit"
     :onGetDataSuccess="onGetDataSuccess"

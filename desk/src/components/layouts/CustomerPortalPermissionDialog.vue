@@ -22,7 +22,7 @@
           }}
           {{ __("Learn more in the") }}
           <a
-            href="https://garp.aiconec.com/docs/modules/helpdesk/customers-contacts#update-on-permissions"
+            href="https://bizconnect.id/docs/modules/helpdesk/customers-contacts#update-on-permissions"
             target="_blank"
             class="underline"
             >{{ __("documentation") }}</a

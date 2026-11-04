@@ -121,7 +121,7 @@ const agentPortalDropdown = computed(() => [
   {
     icon: "lucide-book-open",
     label: __("Docs"),
-    onClick: () => window.open("https://garp.aiconec.com/docs/modules/helpdesk"),
+    onClick: () => window.open("https://bizconnect.id/docs/modules/helpdesk"),
   },
   themeMenuItem.value,
   {

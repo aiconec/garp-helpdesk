@@ -269,7 +269,7 @@ const customState = reactive<CustomEmailAccountState>(getInitialCustomState());
 
 const info = {
   description: __("To know more about setting up email accounts, click"),
-  link: "https://garp.aiconec.com/docs/modules/helpdesk",
+  link: "https://bizconnect.id/docs/modules/helpdesk",
 };
 
 const deskEditUrl = computed(() => {

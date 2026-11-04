@@ -38,7 +38,7 @@ What you can do next:<br>
   <li>Invite your team and auto-assign tickets using assignment rules.</li>
   <li>Set up SLAs to manage response times for your agents.</li>
   <li>Add a Knowledge Base for self-serve support.</li>
-  <li>Check out our documentation at <a href="https://garp.aiconec.com/docs/modules/helpdesk" style="color: #3b82f6;">https://garp.aiconec.com/docs/modules/helpdesk</a> </li>
+  <li>Check out our documentation at <a href="https://bizconnect.id/docs/modules/helpdesk" style="color: #3b82f6;">https://bizconnect.id/docs/modules/helpdesk</a> </li>
 </ul>
 <br>
 Feel free to click around and explore our product.

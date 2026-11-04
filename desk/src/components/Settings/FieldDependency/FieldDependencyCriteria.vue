@@ -15,7 +15,7 @@
               {{ selections.parentField }} is set to</span
             >
             <DocumentationButton
-              url="https://garp.aiconec.com/docs/modules/helpdesk/field-dependency#handling-visibility-of-child-field"
+              url="https://bizconnect.id/docs/modules/helpdesk/field-dependency#handling-visibility-of-child-field"
               color="!text-ink-gray-6"
             />
           </div>
@@ -41,7 +41,7 @@
               {{ selections.parentField }} is set to</span
             >
             <DocumentationButton
-              url="https://garp.aiconec.com/docs/modules/helpdesk/field-dependency#handling-if-the-child-field-is-mandatory"
+              url="https://bizconnect.id/docs/modules/helpdesk/field-dependency#handling-if-the-child-field-is-mandatory"
               color="!text-ink-gray-6"
             />
           </div>

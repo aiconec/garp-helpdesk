@@ -89,7 +89,7 @@
           <div class="flex items-center justify-between">
             <FormLabel :label="__('Response')" required size="md" />
             <DocumentationButton
-              url="https://garp.aiconec.com/docs/modules/helpdesk/saved-replies"
+              url="https://bizconnect.id/docs/modules/helpdesk/saved-replies"
             />
           </div>
           <PreviewDialog v-model="previewDialog" />
