@@ -128,7 +128,7 @@
                 }}
                 <a
                   class="font-medium underline"
-                  href="https://garp.aiconec.com/docs/modules/helpdesk/assignment-rule"
+                  href="https://bizconnect.id/docs/modules/helpdesk/assignment-rule"
                   target="_blank"
                   >{{ __("Learn about conditions") }}</a
                 >
@@ -205,7 +205,7 @@
                 }}
                 <a
                   class="font-medium underline"
-                  href="https://garp.aiconec.com/docs/modules/helpdesk/assignment-rule"
+                  href="https://bizconnect.id/docs/modules/helpdesk/assignment-rule"
                   target="_blank"
                   >{{ __("Learn about conditions") }}</a
                 >

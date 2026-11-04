@@ -231,7 +231,7 @@
               )
             }}
             <a
-              href="https://garp.aiconec.com/docs/modules/helpdesk/helpdesk/customization/outside-working-hours-banner"
+              href="https://bizconnect.id/docs/modules/helpdesk/helpdesk/customization/outside-working-hours-banner"
               target="_blank"
               class="underline font-semibold"
               >{{ __("here") }}</a

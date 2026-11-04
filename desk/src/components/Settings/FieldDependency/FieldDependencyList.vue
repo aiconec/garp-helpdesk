@@ -15,7 +15,7 @@
           )
         }}
         <a
-          href="https://garp.aiconec.com/docs/modules/helpdesk/field-dependency"
+          href="https://bizconnect.id/docs/modules/helpdesk/field-dependency"
           target="_blank"
           class="underline"
           >{{ __("here.") }}</a

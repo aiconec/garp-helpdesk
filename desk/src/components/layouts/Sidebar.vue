@@ -50,7 +50,7 @@
     appName="helpdesk"
     title="GARP Helpdesk"
     :logo="logo"
-    docsLink="https://garp.aiconec.com/docs/modules/helpdesk"
+    docsLink="https://bizconnect.id/docs/modules/helpdesk"
     :afterSkip="(step: string) => capture('onboarding_step_skipped_' + step)"
     :afterSkipAll="() => capture('onboarding_steps_skipped')"
     :afterReset="(step: string) => capture('onboarding_step_reset_' + step)"
@@ -169,7 +169,7 @@ const agentPortalDropdown = computed(() => [
   {
     icon: "lucide-book-open",
     label: __("Docs"),
-    onClick: () => window.open("https://garp.aiconec.com/docs/modules/helpdesk"),
+    onClick: () => window.open("https://bizconnect.id/docs/modules/helpdesk"),
   },
   {
     label: __("Login to Frappe Cloud"),
