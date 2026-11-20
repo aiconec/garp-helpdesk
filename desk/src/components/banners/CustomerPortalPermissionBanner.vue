@@ -24,7 +24,7 @@
       {{ __("can see every ticket of their company and manage its contacts.") }}
       {{ __("Learn more in the") }}
       <a
-        href="https://docs.frappe.io/helpdesk/customers-contacts#update-on-permissions"
+        href="https://bizconnect.id/docs/modules/helpdesk"
         target="_blank"
         class="underline"
         >{{ __("documentation") }}</a
