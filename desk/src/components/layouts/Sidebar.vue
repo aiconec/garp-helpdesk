@@ -47,9 +47,9 @@
     v-model="showHelpModal"
     v-model:articles="articles"
     appName="helpdesk"
-    title="Frappe Helpdesk"
+    title="GARP Helpdesk"
     :logo="logo"
-    docsLink="https://docs.frappe.io/helpdesk"
+    docsLink="https://bizconnect.id/docs/modules/helpdesk"
     :afterSkip="(step: string) => capture('onboarding_step_skipped_' + step)"
     :afterSkipAll="() => capture('onboarding_steps_skipped')"
     :afterReset="(step: string) => capture('onboarding_step_reset_' + step)"
@@ -151,20 +151,15 @@ const profileSettings = computed(() => [
   {
     icon: "lucide-book-open",
     label: __("Docs"),
-    onClick: () => window.open("https://docs.frappe.io/helpdesk"),
+    onClick: () => window.open("https://bizconnect.id/docs/modules/helpdesk"),
   },
-  isCloudSettingsAvailable()
-    ? {
-        label: __("Manage billing"),
-        icon: "lucide-credit-card",
-        onClick: openBillingSettings,
-      }
-    : {
-        label: __("Login to Frappe Cloud"),
-        icon: FrappeCloudIcon,
-        onClick: () => confirmLoginToFrappeCloud(),
-        condition: () => !isMobileView.value && window.is_fc_site,
-      },
+  {
+    label: __("Login to Frappe Cloud"),
+    icon: FrappeCloudIcon,
+    onClick: () => confirmLoginToFrappeCloud(),
+    // GARP is not hosted on Frappe Cloud: never offer to log in there, even if a site's config says otherwise.
+    condition: () => false,
+  },
   {
     label: __("Shortcuts"),
     icon: h(LucideKeyboard),
@@ -402,7 +397,7 @@ const articles = ref([
     ],
   },
   {
-    title: __("Frappe Helpdesk Mobile"),
+    title: __("GARP Helpdesk Mobile"),
     opened: false,
     subArticles: [
       { name: "pwa-installation", title: __("Mobile App Installation") },

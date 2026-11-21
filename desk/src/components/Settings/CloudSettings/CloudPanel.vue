@@ -14,7 +14,7 @@
         {
           label: __('Contact support'),
           iconLeft: 'lucide-life-buoy',
-          href: 'https://support.frappe.io',
+          href: 'https://aiconec.com/support',
         },
       ]"
     />

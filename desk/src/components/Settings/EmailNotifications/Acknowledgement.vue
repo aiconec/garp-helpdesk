@@ -3,7 +3,7 @@
     v-model:content="content"
     :defaultContent="defaultContent"
     v-model:enabled="enabled"
-    documentationLink="https://docs.frappe.io/helpdesk/email-notifications#available-variables-acknowledgement"
+    documentationLink="https://bizconnect.id/docs/modules/helpdesk/email-notifications#available-variables-acknowledgement"
     ref="compRef"
     name="acknowledgement"
     :title="props.notification.label"

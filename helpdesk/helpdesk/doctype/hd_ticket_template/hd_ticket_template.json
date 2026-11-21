@@ -28,7 +28,7 @@
    "options": "HTML"
   },
   {
-   "description": "Everyone or Agents: who sees this field. It also needs the field's permission level to permit them, or it stays hidden regardless. Editable after creation lets customers change the field after they create the ticket. Agents can always change it. Read more about permission levels <a href=\"https://docs.frappe.io/helpdesk/customization/perm-levels-in-helpdesk\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
+   "description": "Everyone or Agents: who sees this field. It also needs the field's permission level to permit them, or it stays hidden regardless. Editable after creation lets customers change the field after they create the ticket. Agents can always change it. Read more about permission levels <a href=\"https://bizconnect.id/docs/modules/helpdesk\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
    "fieldname": "fields",
    "fieldtype": "Table",
    "label": "Fields",

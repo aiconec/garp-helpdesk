@@ -16,7 +16,7 @@ from helpdesk.utils import capture_event
 
 # linked from the hide warning below
 PERMISSION_LEVEL_DOCS = (
-    "https://docs.frappe.io/helpdesk/customization/perm-levels-in-helpdesk"
+    "https://bizconnect.id/docs/modules/helpdesk"
 )
 
 

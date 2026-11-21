@@ -1,13 +1,15 @@
 app_name = "helpdesk"
-app_title = "Helpdesk"
-app_publisher = "Frappe Technologies"
-app_description = "Customer Service Software"
+app_title = "GARP Helpdesk"
+app_icon_title = "Helpdesk"
+app_publisher = "Aiconec GARP"
+app_description = "GARP Helpdesk — customer support tickets and knowledge base"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "hello@frappe.io"
+app_email = "engineering@aiconec.com"
 app_license = "AGPLv3"
-# As org/app, so `bench get-app helpdesk` fetches whichever is missing.
-required_apps = ["frappe/telephony"]
+# GARP: telephony ships in the image and add_telephony_app installs it; no
+# required_apps so install never tries to fetch it.
+required_apps = []
 require_type_annotated_api_methods = True
 # Open source, so API clients may read a method's code with `frappectl method show`.
 expose_discovery_source = True
@@ -15,7 +17,7 @@ expose_discovery_source = True
 add_to_apps_screen = [
     {
         "name": "helpdesk",
-        "logo": "/assets/helpdesk/desk/favicon.svg",
+        "logo": "/assets/helpdesk/images/garp-helpdesk-icon.svg",
         "title": "Helpdesk",
         "route": "/helpdesk",
         "has_permission": "helpdesk.api.permission.has_app_permission",

@@ -15,7 +15,7 @@
           )
         }}
         <a
-          href="https://docs.frappe.io/helpdesk/field-dependency"
+          href="https://bizconnect.id/docs/modules/helpdesk/field-dependency"
           target="_blank"
           class="underline"
           >{{ __("here.") }}</a

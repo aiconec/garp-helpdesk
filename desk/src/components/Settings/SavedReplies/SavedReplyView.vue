@@ -88,7 +88,7 @@
           <div class="flex items-center justify-between">
             <FormLabel :label="__('Response')" required />
             <DocumentationButton
-              url="https://docs.frappe.io/helpdesk/saved-replies"
+              url="https://bizconnect.id/docs/modules/helpdesk/saved-replies"
             />
           </div>
           <PreviewDialog v-model="previewDialog" />

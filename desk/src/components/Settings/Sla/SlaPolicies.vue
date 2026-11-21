@@ -13,7 +13,7 @@
           )
         }}
         <a
-          href="https://docs.frappe.io/helpdesk/service-level-agreement"
+          href="https://bizconnect.id/docs/modules/helpdesk/service-level-agreement"
           target="_blank"
           class="underline"
           >{{ __("here.") }}
