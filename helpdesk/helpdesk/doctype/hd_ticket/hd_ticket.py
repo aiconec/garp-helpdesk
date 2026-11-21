@@ -882,6 +882,14 @@ class HDTicket(Document, CustomerEditController):
                 email_account_name, from_email_id
             )
 
+        # Only store an address that passed _resolve_sender_email (or the
+        # account's own). The Communication's sender later widens
+        # ticket_email_participants, so an unchecked `from_email.email_id` would
+        # let a caller allowlist any address for the next reply.
+        sender = (
+            sender_email.email_id if sender_email and sender_email.email_id else None
+        ) or frappe.session.user
+
         if recipients == "Administrator":
             recipients = frappe.get_value("User", "Administrator", "email")
 
